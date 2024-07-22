@@ -4,22 +4,10 @@ layout: home
 
 hero:
   name: "koiya.me"
-  text: "My blog"
-  tagline: My great project tagline
+  tagline: Hello...
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Table of Contents
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
