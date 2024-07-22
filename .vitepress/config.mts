@@ -5,7 +5,10 @@ export default defineConfig({
   lastUpdated: true,
   markdown: {
     lineNumbers: true,
-    math: true
+    math: true,
+    image: {
+      lazyLoading: true
+    },
   },
   lang: 'en-US',
   title: "koiya.me",
@@ -30,6 +33,7 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks: [
+      { icon: 'github', link: 'https://github.com/koiyakiya'},
       { icon: 'twitter', link: 'https://x.com/koiyakiya/'},
       { icon: 'instagram', link: 'https://instagram.com/koiyakiya9/'},
       { icon: 'youtube', link: 'https://youtube.com/@koiyakiya'},
