@@ -15,7 +15,7 @@ export default defineConfig({
   description: "My blog",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '../koiya.jpg',
+    logo: '../img/koiya.jpg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'First Post', link: '/first-post' }
