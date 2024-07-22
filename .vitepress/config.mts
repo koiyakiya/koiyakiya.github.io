@@ -13,6 +13,8 @@ export default defineConfig({
   lang: 'en-US',
   title: "koiya.me",
   description: "My blog",
+  // disables light mode
+  appearance: 'force-dark',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '../img/koiya.jpg',
@@ -20,7 +22,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'First Post', link: '/first-post' }
     ],
-
     sidebar: [
       {
         text: 'Examples',
