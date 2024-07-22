@@ -26,7 +26,7 @@
     script.setAttribute('repo', 'koiyakiya/koiyakiya.github.io')
     script.setAttribute('issue-term', route.path)
     script.setAttribute('label', 'Comments')
-    script.setAttribute('theme', 'boxy-light')
+    script.setAttribute('theme', 'github-dark-orange')
     script.setAttribute('crossorigin', 'anonymous')
     script.setAttribute('async', true)
   
