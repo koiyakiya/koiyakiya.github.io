@@ -7,7 +7,7 @@ hero:
   tagline: Hello...
   actions:
     - theme: brand
-      text: Table of Contents
-      link: /markdown-examples
+      text: First Post!
+      link: /first-post
 ---
 

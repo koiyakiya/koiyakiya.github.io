@@ -2,6 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lastUpdated: true,
+  markdown: {
+    lineNumbers: true,
+    math: true
+  },
   lang: 'en-US',
   title: "koiya.me",
   description: "My blog",
@@ -10,19 +15,20 @@ export default defineConfig({
     logo: '../koiya.jpg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'First Post', link: '/first-post' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'First Post', link: '/first-post' },
         ]
       }
     ],
-
+    search: {
+      provider: 'local'
+    },
     socialLinks: [
       { icon: 'twitter', link: 'https://x.com/koiyakiya/'},
       { icon: 'instagram', link: 'https://instagram.com/koiyakiya9/'},
