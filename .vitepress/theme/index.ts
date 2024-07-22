@@ -5,15 +5,13 @@ import './tailwind.postcss'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import './custom.css'
+import MyLayout from './MyLayout.vue'
+import Comments from '../../components/Comments.vue'
 
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
-  enhanceApp({ app, router, siteData }) {
-    // ...
+  Layout: MyLayout,
+  enhanceApp({ app }) {
+    app.component('Comments', Comments)
   }
 } satisfies Theme
