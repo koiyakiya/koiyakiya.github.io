@@ -1,5 +1,12 @@
 # First Post
 
+<div class="flex flex-col items-center mt-10 sm:flex-row">
+  <img src="./koiya.jpg" alt="Vite package logo" width="200" height="200" style="float: left; margin-right: 12px;" />
+  <p class="italic text-gray-500">
+    We all start somewhere...
+  </p>
+</div>
+
 ## Capabilities
 
 This is my first post testing out the capabilities of [Vitepress](https://vitepress.dev/).
@@ -114,8 +121,6 @@ def ur mother:
 **The first one to move is gay**
 
 :::
-
-
 
 
 ## 最後に
