@@ -7,8 +7,9 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <template #aside-ads-before>
+    <template #doc-before>
       <Kofi username="koiya" backgroundColor="#0f0f0f" hoverBackgroundColor="#161618"/>
+      <br>
     </template>
     <template #doc-after>
        <Comments />
