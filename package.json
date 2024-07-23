@@ -22,7 +22,7 @@
     }
   },
   "dependencies": {
-    "vite-coffee": ">=0.2.1-alpha",
+    "vite-coffee": "1.0.0",
     "vue-kofi": "^1.1.1"
   }
 }
