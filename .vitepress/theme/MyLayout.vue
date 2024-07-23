@@ -9,6 +9,7 @@ const { Layout } = DefaultTheme
   <Layout>
     <template #doc-after>
        <Comments />
+       <Kofi username="koiya"/>
     </template>
   </Layout>
 </template>

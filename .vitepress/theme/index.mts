@@ -7,11 +7,13 @@ import './style.css'
 import './custom.css'
 import MyLayout from './MyLayout.vue'
 import Comments from '../../components/Comments.vue'
+import { Kofi } from 'vite-coffee'
 
 export default {
   extends: DefaultTheme,
   Layout: MyLayout,
   enhanceApp({ app }) {
     app.component('Comments', Comments);
+    app.component('Kofi', Kofi)
   }
 } satisfies Theme
