@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../node_modules/vue-kofi/src/index.js"],
-  "sourcesContent": ["import KofiButton from './KofiButton.vue';\n\nKofiButton.install = (Vue) => {\n  Vue.component(KofiButton.name, KofiButton);\n};\n\nexport default KofiButton;\n"],
-  "mappings": ";AAAA,OAAO,gBAAgB;AAEvB,WAAW,UAAU,CAAC,QAAQ;AAC5B,MAAI,UAAU,WAAW,MAAM,UAAU;AAC3C;AAEA,IAAO,cAAQ;",
-  "names": []
-}

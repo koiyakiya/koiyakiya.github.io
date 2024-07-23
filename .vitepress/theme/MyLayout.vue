@@ -7,9 +7,6 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <template #aside-ads-before>
-        <vue-kofi uid="koiya" color="#0a0a0a" />
-    </template>
     <template #doc-after>
        <Comments />
     </template>
