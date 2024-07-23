@@ -7,9 +7,11 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
+    <template #aside-ads-before>
+      <Kofi username="koiya" backgroundColor="#0f0f0f" hoverBackgroundColor="#161618"/>
+    </template>
     <template #doc-after>
        <Comments />
-       <Kofi username="koiya"/>
     </template>
   </Layout>
 </template>
