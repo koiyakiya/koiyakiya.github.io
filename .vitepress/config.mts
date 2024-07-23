@@ -27,6 +27,7 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'First Post', link: '/first-post' },
+          { text: 'How I Made vite-coffee', link: '/how-i-made-vite-coffee'}
         ]
       }
     ],
