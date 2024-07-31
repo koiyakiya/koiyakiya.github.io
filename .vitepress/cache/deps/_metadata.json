@@ -1,49 +1,55 @@
 {
-  "hash": "6fc2321c",
+  "hash": "0243b9c1",
   "configHash": "a7148771",
-  "lockfileHash": "d511dcb5",
-  "browserHash": "b8156705",
+  "lockfileHash": "a69407c9",
+  "browserHash": "92b863f4",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "d36d8ec9",
+      "fileHash": "36f8cc7e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "1faacaf8",
+      "fileHash": "c334da42",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "04cdad42",
+      "fileHash": "df00ed07",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "e1b4ecfe",
+      "fileHash": "4f66f6ce",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "675383e2",
+      "fileHash": "ded49612",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "4cb33b0d",
+      "fileHash": "fdc6f4a3",
       "needsInterop": false
     },
     "vite-coffee": {
       "src": "../../../node_modules/vite-coffee/dist/vite-coffee.es.js",
       "file": "vite-coffee.js",
-      "fileHash": "6270d106",
+      "fileHash": "62a9f3e8",
+      "needsInterop": false
+    },
+    "@iconify/vue": {
+      "src": "../../../node_modules/@iconify/vue/dist/iconify.mjs",
+      "file": "@iconify_vue.js",
+      "fileHash": "a2a54f32",
       "needsInterop": false
     }
   },
